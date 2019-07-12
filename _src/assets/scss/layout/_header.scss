@@ -36,7 +36,7 @@
     text-align: center;
     color: white;
     margin-bottom: 100px;
-    font-family: Roboto-Regular;
+    font-family: $fontsecundary;
         &_principal {
             font-size: 60px;
             margin-bottom: 20px;
@@ -44,6 +44,8 @@
         &_secundary {
             font-size: 20px;
             margin-bottom: 20px;
+            font-size: 16px;
+            font-weight: normal;
 
         }
         &_button {

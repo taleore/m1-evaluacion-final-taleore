@@ -4,7 +4,7 @@
     background-color: #eff9ff;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 150px 100px 100px 100px 80px;
+    grid-template-rows: 150px 120px 120px 120px 80px;
         &_tittle {
             padding-top: 30px;
             font-family: sans-serif;
@@ -32,14 +32,47 @@
                 font-weight: bold;
             }
             &--text {
-                background-color: pink;
                 font-weight: normal;
                 max-width: 180px;
 
             }
         }
         &_2 {
-            @include text-grid();
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            font-family: sans-serif;
+            text-align: center;
+            color: black;
+            font-size: 18px;
+            &--tittle {
+                font-weight: bold;
+            }
+            &--text {
+                font-weight: normal;
+                max-width: 180px;
+
+            }
+           
+
+        }
+        &_3 {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            font-family: sans-serif;
+            text-align: center;
+            color: black;
+            font-size: 18px;
+            &--tittle {
+                font-weight: bold;
+            }
+            &--text {
+                font-weight: normal;
+                max-width: 180px;
+
+            }
+           
 
         }
         &_4 {
