@@ -5,6 +5,18 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 150px 120px 120px 120px 80px;
+    @media (min-width:768px) {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 133px 133px 133px;
+        height: 397px;
+    }
+    @media (min-width:1280px) {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 133px 133px 133px;
+        height: 427px;
+    }
+
+   
         &_tittle {
             padding-top: 30px;
             font-family: sans-serif;
@@ -19,6 +31,10 @@
             display: grid;
             justify-content: center;
             align-items: center;
+            @media (min-width:768px) {
+                grid-column: 1/4;
+                grid-row: 1/2;
+            }
         }
         &_1 {
             display: grid;
@@ -28,6 +44,10 @@
             text-align: center;
             color: black;
             font-size: 18px;
+            @media (min-width:768px) {
+                grid-column: 1/2;
+                grid-row: 2/3;;
+            }
             &--tittle {
                 font-weight: bold;
             }
@@ -36,6 +56,7 @@
                 max-width: 180px;
 
             }
+            
         }
         &_2 {
             display: grid;
@@ -45,6 +66,10 @@
             text-align: center;
             color: black;
             font-size: 18px;
+            @media (min-width:768px) {
+                grid-column: 2/3;
+                grid-row: 2/3;
+            }
             &--tittle {
                 font-weight: bold;
             }
@@ -53,9 +78,11 @@
                 max-width: 180px;
 
             }
+            
+        }
            
 
-        }
+        
         &_3 {
             display: grid;
             justify-content: center;
@@ -64,6 +91,11 @@
             text-align: center;
             color: black;
             font-size: 18px;
+            @media (min-width:768px) {
+                grid-column: 3/4;
+                grid-row: 2/3;
+                
+            }
             &--tittle {
                 font-weight: bold;
             }
@@ -72,6 +104,7 @@
                 max-width: 180px;
 
             }
+            
            
 
         }
@@ -80,6 +113,12 @@
             justify-content: center;
             align-items: center;
              width: 100vw;
+             @media (min-width:768px) {
+                grid-column: 1/4;
+                grid-row: 3/4;
+                
+            }
+             
             &--buttonmore {
                 background-color:  #f26002;
                 height: 45px;
