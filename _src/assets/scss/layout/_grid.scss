@@ -79,12 +79,13 @@
             display: grid;
             justify-content: center;
             align-items: center;
-            background-color:  #f26002;
-            width: 184px;
-            height: 45px;
-            border-radius: 22px;
-            margin-top: 45px;
+             width: 100vw;
             &--buttonmore {
+                background-color:  #f26002;
+                height: 45px;
+                border-radius: 22px;
+                margin-top: 45px;
+                margin:auto;
                 text-decoration: none;
                 font-family: 'Roboto', sans-serif;
                 width: 184px;

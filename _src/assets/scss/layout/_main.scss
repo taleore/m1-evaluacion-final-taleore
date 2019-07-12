@@ -9,30 +9,59 @@
         margin-top: 30px;
         padding: 8px;
         color: #8ccbea;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 30px;
         font-family: $fontprincipal;
+        @media (min-width:768px) {
+            font-size: 14px;
+            max-width: 216px;
+
+        }
+        @media (min-width:1280px) {
+            font-size: 16px;
+            max-width: 360px;
+        }
+      
     }
     &_text2 {
-        max-width: 290px;
+        max-width: 290px;;
         padding: 8px;
         color: black    ;
-        font-size: 30px;
+        font-size: 24px;
         line-height: 30px;
         font-weight: bold;
         font-family: $fontsecundary;
+        @media (min-width:768px) {
+            font-size: 26px;
+            max-width: 690px;
+
+        }
+        @media (min-width:1280px) {
+            font-size: 32px;
+            max-width: 730px;
+            
+        }
     }
     &_text3 {
-        max-width: 400px;
         padding: 10px;
         font-family: Roboto;
-        font-size: 24px;
+        font-size: 18px;
         font-weight: normal;
         font-style: normal;
         font-stretch: normal;
         line-height: 1.67;
         letter-spacing: normal;
         color:#4a4a4a;
+        @media (min-width: 768px) {
+            font-size: 20px;
+            
+
+        }
+        @media (min-width:1280px) {
+            font-size: 30px;
+            
+            
+        }
     }
     &_button {
         margin-bottom: 45px;

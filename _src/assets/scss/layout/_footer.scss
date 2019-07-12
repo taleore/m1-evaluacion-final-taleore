@@ -52,6 +52,13 @@
         justify-content: center;
         flex-direction: column;
         text-align: center;
+        @media (min-width:768px) {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            align-self: flex-end;
+            
+        }
 
     }
     &_year {
@@ -60,6 +67,11 @@
         flex-direction: column;
         text-align: center;
         color: white;
+        @media (min-width:768px) {
+            display: flex;
+            align-items: flex-start;
+            
+        }
         
 
     }
@@ -69,8 +81,18 @@
         flex-direction: column;
         text-align: center;
         color: white;
+        @media (min-width:768px) {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+
+        }
     }
     
     
 }
+
+
+
+
 
