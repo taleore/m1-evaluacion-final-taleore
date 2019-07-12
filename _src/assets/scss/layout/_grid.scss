@@ -38,6 +38,10 @@
 
             }
         }
+        &_2 {
+            @include text-grid();
+
+        }
         &_4 {
             display: grid;
             justify-content: center;
